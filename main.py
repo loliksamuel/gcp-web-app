@@ -27,13 +27,6 @@ class MainHandler(webapp2.RequestHandler):
         self.response.write('Hello db key value simon !')
         self.response.write(' my 1st gcloud app deploy succeeded !')
 
-class GetHandler(webapp2.RequestHandler):
-    def get(self):
-        print ('gettt')
-
-        self.response.headers['Content-Type'] = 'text/plain'
-        self.response.write('hello fast simon !')
-
 
 
 
